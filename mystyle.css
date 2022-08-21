@@ -1,12 +1,168 @@
-table{
-    border: 1px solid black; 
+.reveal{
+  position: relative;
+  transform: translate3d(0, 50%, 0);  
+  opacity: 0;
+  transition: 2s all ease;
+  padding: 100px;
+  border-radius: 10px;
+  margin: auto;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+  padding: 100px;
+  margin: auto;
 }
 
-th, td {
-  border: 1px solid black;
+h1{
+	margin: auto;
+	width: 35%;
+	padding-top: 100px;
+	color: #9d8f62ff;
+  text-align: center;
+	font-size: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2{
+  margin: auto;
+  text-align: center;
+  width: 95%;
+  color: #e6e6e6;
+  font-size: 60px;
+  padding: 40px;
+}
+
+h3{
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  color: #e6e6e6;
+  font-size: 20px;
+}
+
+p{
+	color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color: #e6e6e6;
+  font-size: 20px;
+}
+
+.nav-link{
+  font-family: Montserrat;
+  color: #e6e6e6;
+  font-size: 30px;
+}
+
+.nav-link:hover{
+  color:#9d8f62ff;
+}
+
+.course:link, .course:visited {
+  background-color: #262423;
+  color: #262423;
+  margin: auto;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #e6e6e6;
+  border-radius: 50px;
+  font-size: 50px;
+}
+
+.course:hover, .course:active {
+  color: #9d8f62ff;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
   text-align: center;
 }
 
-#footer {
-background: grey;
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }

@@ -1,38 +1,115 @@
 <!DOCTYPE html>
-    <html>
+    <html lang="en">
       <head>
+        <style>
+            .center {
+              align-items: center;
+              justify-content: center
+              padding:8px;
+                }
+        </style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <body>
+          
+        </body>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>About Me</title>
-        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
         <link href="mystyle.css" rel="stylesheet">
       </head>
-      <body>
-        <h1>Moran, Matt</h1>
-        <p>Hello! I am a CS major at CU Boulder. I was born in California but I moved to Colorado when I was 6. I am an Eagle Scout and I am a part of the media committee for the CU Astronomy Club. I'm studying CS because I enjoy exploring the problem-solving capabilities of coding and software.</p>
-        <h2>My Professional profile</h2>
-        <a href="https://github.com/MattEMoran">Link to Github Profile</a>
-    	<br>
-    	<br>
-        <img src="https://specials-images.forbesimg.com/imageserve/5f75e3e13388df5d6054b325/960x0.jpg?fit=scale" alt="Steve" width="700" height="500">
-        <h3>My Favorite Projects</h3>
-        <table>
-        	<tr>
-        		<th>Name of the Project</th><th>Technologies Used</th>
-        	</tr>
-        	<tr>
-        		<th>Math Game</th><th>Swift, Xcode</th>
-        	</tr>
-        	<tr>
-        		<th>Buff Book</th><th>C++</th>
-        	</tr>
-        	<tr>
-        		<th>Weather App</th><th>Xcode</th>
-        	</tr>
-        </table>
-        <h3>My Interests</h3>
-        <ul>
-		  <li>Astronomy</li>
-		  <li>Artificial Intelligence</li>
-		  <li>National Parks</li>
-		</ul>
+      <body style="background-color: #262423; font-family: Montserrat; font-weight: 500;">
+        <nav class="navbar navbar-expand-md" style="background-color: #262423;">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="samples.html">Samples of Work</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Career</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Service</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Leadership</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Research</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Socials</a>
+            </li>
+          </ul>
+        </nav>
+        <section>
+        <img src="images/header.png" alt="Matt Moran" style="width: 100vh; margin: auto; padding-top: 100px; width: 35%;" class="center">
+        <br></br>
+        <img src="images/portrait.jpeg" alt="Matt Moran" style="width: 60vh; margin: auto;  width: 35%; border-radius: 100%;" class="center">
+        </section>
+        <section>
+          <h1>About Me</h1>
+          <h2>Bio</h2>
+          <p>
+            Hello! My name is Matthew (Matt) Moran. I am pursuing my bachelor's in Computer Science with minors in Applied Mathematics and Space here at CU Boulder. 
+
+            I strive to develop software solutions with the user as the center of focus. I work to understand how I can step back from a product and use the customers' perspectives to inform projects such that they are functional and expandable as needed. Adaptability is a core pillar of my approach to programming, and I believe no piece of code should be though of as rigid or incapable of being improved upon. In my future career, I hope to work to develop customer-driven and cutting-edge solutions that use the power of data and artificial intelligence to their advantage.
+
+            Personally, I absolutely love landscape photography and astrophotography and getting to capture rare moments in nature and in my life. I am also a big fan of dance pop music, and I enjoy getting to learn more about science and technology through great content like Kurzgesagt's Youtube channel and the Cosmos television series.
+
+          </p>
+          <h2>Resume</h2>
+          <div class="row">
+            <img src="images/resumepart1.png" alt="Matt Moran" style="width: 100vh; margin: auto; padding-top: 100px; width: 35%;" class="center">
+            <img src="images/resumepart2.png" alt="Matt Moran" style="width: 100vh; margin: auto; padding-top: 100px; width: 35%;" class="center">
+          </div>
+          <br></br>
+          <h2>Philosophy of Education</h2>
+          <p>Our upbringing is intended to introduce us to the world and its nature, but we only see shades of the truth. We have the ability to interpret new information and either reject or accept it as truth, which allows us to educate others on what we perceive to be the truth. Our perspectives and our beliefs are shaped by the views of our families, friends, and society, which in turn are also shaped by other people as well. Humanity’s greatest strength comes from its collaborative nature and the shared knowledge that enables us to better survive, but this forces us to rely on others to understand reality, and in doing so we find it harder to discern what arises from influence and what is authentic to the individual.
+          </p>
+          <p>
+          Although the wealth of knowledge that a university can provide is inherently valuable, the way a university education teaches us to draw distinctions between what arises from the influence of our peers and what is unique to the individual is its true value. A university education allows us to examine the world and ourselves from outside of the influences that shape us so as not to necessarily change the set of information we rely on, but to help us understand what is manipulated by external factors and what is not. Essentially, the purpose of college is to relearn how to learn.
+          </p>
+          <p>
+          I do not want the ultimate goal of my education to be the degree I earn at the end. I could spend four years introducing myself to new knowledge and skills, but that effort would be in vain if I choose to keep the things that I learn about isolated from each other and myself. Whenever I go to class, I want to be able to think about how what I am learning about is a part of the reality that arises from my perspective as well as objective reality, and how I am simultaneously a part of both realities. My graduation should represent my ability to come to conclusions about my inner truth, my manufactured and true motivations, and my influences and beliefs. I want to be able to say with confidence how I am a part of the real world and why my character attests to that fact, because I desire to live not in the world that we created out of necessity, but in the world we have dreamed of being a part of. In this world, the choices I make about my career, my relationships, and my passions are under my control because my university education taught me to make uninfluenced decisions that ultimately give me autonomy over my life.
+          </p>
+          <p>
+          So the value of the university is not the sheer amount of knowledge that it can provide, nor is it my intention to spend my four years trying to attain as much raw information as possible. My goal is to use my education to discover the real and authentic motivations that I have so that I can pursue success, which I will find over and over again throughout my life because part of finding success is discovering an authentic purpose that will be the key to freedom and defining one’s true self.
+          </p>
+          
+        </section>
+        <section>
+          <br></br>
+        </section>
       </body>
     </html>

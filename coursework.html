@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <style>
+            .center {
+              align-items: center;
+              justify-content: center
+              padding:8px;
+                }
+        </style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <body>
+          
+        </body>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <link href="mystyle.css" rel="stylesheet">
+      </head>
+      <body style="background-color: #262423; font-family: Montserrat; font-weight: 500;">
+        <nav class="navbar navbar-expand-md" style="background-color: #262423;">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="samples.html">Samples of Work</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Career</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Service</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Leadership</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Research</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Socials</a>
+            </li>
+          </ul>
+        </nav>
+        <section>
+          <h1>Samples of Work</h1>
+        </section>
+        <section>
+        <br></br>
+        <div class="row" style="text-align: center;">
+          <a class="course" href="coursework.html">Coursework</a>
+          <a class="course" href="writing.html">Writing Samples</a>
+          <a class="course" href="creative.html">Creative Work</a>
+        </div>
+        </section>
+        <section>
+          <br></br>
+          <div class="row">
+            <div class="col">
+              <h2>Simulatio Animalis</h2>
+              <h3> This project was developed with Anne Chen and David Gao for CSCI 4448 "Object Oriented Analysis and Design". The project was intended to be a demonstration of various object-oriented
+              patterns and design principles. Simulatio Animalis is a simulation of interactions between different species in a generated environment. Different animals depend on different resources - for example, a wolf depends on deer for food as it is a predator - and this drives competition between the populations of animals. Each animal is represented as a graphical object in an environment made up of tiles. The animals move around and interact with other animals and the environment. An end of simulation summary is provided at the end with information such as population statistics and interaction events. At the beginning of the simulation, users are able to provide input to specify how many animals they want in the environment and how many days they would like to run the simulation for. Once they press play, the simulation will run according to the given information and randomized events. Some of the patterns used in Simulatio Animalis include Decorator, which was used to add a "disease" wrapper to objects representing animals so as to demonstrate the spread of disease from interactions between species, and Observer, which was used with a Summary Maker object to keep track of all interactions and events across the simulation.</h3>
+              <center>
+                <img src="images/Simulatio2.png" style="width:80%; align-content: center;">
+                <img src="images/Simulatio1.png" style="width:80%; align-content: center;">
+              </center>
+            </div>
+            <div class="col">
+              <h2>Multithreading</h2>
+              <h3> The third lab for CSCI 3753 "Operating Systems" was an exploration of multithreaded programming and resource sharing through the "bounded buffer" problem. The goal was to create a DNS hostname resolver that would find IP addresses for given hostnames. The resolver uses a shared queue where multiple producer and consumer threads could add and process hostnames from a set of input files. Mutexes and sempahores were used to prevent race conditions from occuring within the shared queue, such as to stop multiple conumser threads from accidently reading the same hostname. </h3>
+              <center>
+                <img src="images/sharedResource.png" style="width:80%; align-content: center;">
+              </center>
+              <h2>TrekSafe</h2>
+              <h3> TrekSafe was a semester long project for CSCI 3002 "Fundamentals of Human-Computer Interaction". The project is a demonstration of the design process for a mobile application called TrekSafe, an app and accompanying wrist device intended to keep users safe in the wilderness by offering detailed trail information, weather forecasts, obstacle warnings, and SOS capabilities. A prototype of the app was developed using Figma, and the design was informed with user interviews and research.</h3>
+              <center>
+                <video controls style="width:80%; align-content: center;">
+                  <source src="images/CSCI3002 Project Demo.mp4"
+              type="video/mp4">
+                </video>
+              </center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              
+            </div>
+            <div class="col">
+
+            </div>
+          </div>
+        </section>
+      </body>
+    </html>
