@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <style>
+            .center {
+              align-items: center;
+              justify-content: center
+              padding:8px;
+                }
+        </style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <body>
+          
+        </body>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <link href="mystyle.css" rel="stylesheet">
+      </head>
+      <body style="background-color: #262423; font-family: Montserrat; font-weight: 500;">
+        <nav class="navbar navbar-expand-md" style="background-color: #262423;">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="samples.html">Samples of Work</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="career.html">Career</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">|</p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="service.html">Service</a>
+            </li>
+          </ul>
+        </nav>
+        <section>
+          <h1>Career</h1>
+        </section>
+        <section>
+        <br>
+        </section>
+        <section>
+          <hr width="100%" 
+            color="white" 
+            size="10" 
+            align="center"> 
+          <h2> GLEE - Colorado Space Grant Consortium </h2>
+          <p>
+            The Colorado Space Grant Consortium is a NASA-funded organization that provides college students with opportunities to work on space-related projects. GLEE, the Great Lunar Expedition for Everyone, is a student project at CU Boulder funded through Artemis Student Challenges. Its mission is two-fold: to engage student teams around the world with lunar science through the programming and usage of custom, Arduino-based PCBs known as LunaSats, and to perform distributed science on the surface of the Moon with the LunaSats programmed by these student teams. 
+          </p>
+          <p>
+            I have worked on this project since March 2021 as a member, advisor, and lead of the Software subteam. I have developed C code through the Arduino platform to support the functionality of the LunaSat sensor suite, as well as for the educational workshop modules directed at teaching student teams about using the LunaSats for lunar science, many of which focus on specific LunaSat sensors through guided activities that use Arduino sketches. I have explored using a number of other platforms and tools for various related data visualizations as well. For example, I used Google Cloud, the Google Sheets API and the Google Maps API to create a dynamic map visualization of the organizations associated with the GLEE project. I used p5.js to create a graphical view of the acceleration output from the LunaSat's accelerometer. 
+          </p>
+          <p>
+            As the Software subteam lead, I have been responsible for drafting team goals, tracking the team's progress, and coordinating with other subteams to conduct multidisciplinary tasks that support GLEE as a whole. 
+          </p>
+          <center>
+          <a href="https://github.com/GLEE2023/">GLEE's Github Repository</a>
+          <br>
+          <a href="https://www.glee2023.org">GLEE's Website</a>
+          <br>
+          </center>
+          <center>
+            <img src="images/LunaSat.png" style="width:80%; align-content: center; padding: 10px;">
+            <p>LunaSat</p>
+          </center>
+          <center>
+            <img src="images/Map.png" style="width:80%; align-content: center; padding: 10px;">
+            <p>Automated Map of Organizations associated with GLEE</p>
+          </center>
+
+          <center>
+            <img src="images/Plotter.png" style="width:80%; align-content: center; padding: 10px;">
+            <p>Visualization of Accelerometer Data</p>
+          </center>
+          <hr width="100%" 
+            color="white" 
+            size="10" 
+            align="center"> 
+          <h2> RandomX - Ricoh, USA </h2>
+          <p> From May to August of 2022, I worked as a JavaScript Developer Intern on the Test Automation tema at Ricoh in Boulder, Colorado. My summer project was an extension to an already existing tool called TestBuilder, a drag-and-drop interface that allows testers to easily create automated tests for virtual versions of Ricoh's printer products. The extension, dubbed "RandomX", is a Monte Carlo test generator that randomly selects test steps with input from a user to create hundreds of automated tests. Not only would this reduce the time spent generating tests, but it would also serve as a gateway for future analytics to be performed, as the user can specify certain algorithms and weight models to guide the randomization towards areas representing possible risks or functional changes. </p>
+        </section>
+      </body>
+    </html>
