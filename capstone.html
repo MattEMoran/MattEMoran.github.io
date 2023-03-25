@@ -76,8 +76,14 @@
             For CSCI 4308 - Software Engineering Project, a team of six students including myself are working with Enertiv to develop machine learning algorithms to support sustainability in commercial real estate. Enertiv's mission is to "decarbonize the built environment". Our team is working on two subprojects - one to automate meter readings and another to optimize HVAC system usage. Both subprojects are utilizing variants of neural networks to accomplish these tasks.
           </p>
           <p>
-            My subteam is working on the HVAC optimization subproject, where we are utilizing LSTM-based models that take in user input and forecasted weather data to predict the indoor temperatures of a building with and without the HVAC system active. The end goal is to find the time at which the HVAC system should be turned on or off such that a target range of indoor temperatures is maintained while energy usage is minimized.
+            My subteam is working on the HVAC optimization subproject, where we are utilizing a LSTM-based model built using PyTorch. An LSTM (Long-short Term Memory) is a variant of a Recurrent Neural Network (RNN) that uses feedback connections and gates to pass or forget passed information. The algorithm utilizing the model takes in user input and forecasted weather data to predict the indoor temperatures of a building with and without the HVAC system active. The end goal is to find the time at which the HVAC system should be turned on or off such that a target range of indoor temperatures is maintained while energy usage is minimized.
           </p>
+          <center>
+            <img src="images/RNNExample.png" style="width:60%; align-content: center;">
+            <p> Example RNN Architecture </p>
+            <img src="images/capstone1.png" style="width:60%; align-content: center;">
+            <p> Sample data from weather API that can be used as model input</p>
+          </center>
         </section>
       </body>
     </html>
